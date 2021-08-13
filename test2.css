@@ -1,0 +1,38 @@
+p
+{    
+ text-align: center;   color: rgb(250, 6, 6);
+ font-size: 20px; 
+ font-family: arial red; /*cette partie concerne les paragraphes du centre (profil, competences, cursus, personnalité, expérience)*/
+} 
+.page{
+    background-color: lightblue;
+    width: 780px;
+    margin:auto;
+    font-family: 'Times New Roman', Times, sans-serif, Arial, 'source sans pro', sans-serif; /*mise en forme générale de la page*/
+}
+.sec-gauche{
+    float: left;
+    font-size: 20px; /*cette metion prend en compte le nom et le prénom*/
+}
+.sec-droite{
+    float:right; /*mise en forme de la photo.*/
+}
+.sec-centre{
+    text-align: center;
+    color: blue; /*cette partie prend en compte la mention reférent digital*/
+}
+.pr{
+    text-align: center; color: red;
+    background-color: lightcyan; /*cette partie concerne la dénomination profil*/
+}
+.comp{
+    text-align: center; color: red;
+    background-color: lightcyan; /*cette partie concerne la dénomination compétence*/
+}
+.df{
+    text-align: center; color: red;
+    background-color: lightcyan; /*cette partie concerne la dénomination diplomes et formations*/
+}
+.per{
+    text-align: center; color: red;
+    background-color: lightcyan; /*cette partie concerne la dénomination personalité*/
